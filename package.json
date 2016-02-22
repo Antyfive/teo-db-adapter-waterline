@@ -1,0 +1,27 @@
+{
+  "name": "teo-db-adapter-waterline",
+  "version": "1.0.0",
+  "description": "Teo.JS Waterline ORM Adapter",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Antyfive/teo-db-adapter-waterline.git"
+  },
+  "keywords": [
+    "teo.js",
+    "waterline",
+    "orm",
+    "adapter",
+    "db",
+    "database"
+  ],
+  "author": "Andrew Teologov <teologov.and@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Antyfive/teo-db-adapter-waterline/issues"
+  },
+  "homepage": "https://github.com/Antyfive/teo-db-adapter-waterline#readme"
+}
