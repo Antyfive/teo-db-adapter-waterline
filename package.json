@@ -4,7 +4,7 @@
   "description": "Teo.JS Waterline ORM Adapter",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "NODE_ENV=test ./node_modules/.bin/mocha --require ./test/common.js --reporter spec --ui bdd --recursive --colors --timeout 5000 --slow 300"
   },
   "repository": {
     "type": "git",
@@ -23,5 +23,17 @@
   "bugs": {
     "url": "https://github.com/Antyfive/teo-db-adapter-waterline/issues"
   },
-  "homepage": "https://github.com/Antyfive/teo-db-adapter-waterline#readme"
+  "homepage": "https://github.com/Antyfive/teo-db-adapter-waterline#readme",
+  "dependencies": {
+    "teo-db-adapter": "^1.0.0"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^2.4.5",
+    "short-async": "^1.0.1",
+    "sinon": "^1.17.3"
+  },
+  "engines": {
+    "node": ">= 4"
+  }
 }
