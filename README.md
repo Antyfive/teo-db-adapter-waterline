@@ -1,5 +1,5 @@
 # teo-db-adapter-waterline
-Teo.JS Waterline DB Adapter
+[Teo.JS](https://github.com/Antyfive/teo.js) Waterline DB Adapter.
 
 ## Usage example
 ```javascript
