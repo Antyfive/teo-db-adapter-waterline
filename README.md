@@ -1,8 +1,7 @@
 # teo-db-adapter-waterline
-Teo.JS Waterline Adapter
+Teo.JS Waterline DB Adapter
 
 ## Usage example
-### Config
 ```javascript
 const WaterlineAdapter = require("teo-db-adapter-waterline");
 
@@ -42,3 +41,11 @@ yield* adapterInstance.disconnect();    // disconnects ORM
 #### addModel(identity, modelObject)
 Adds model to the registry. The `identity` argument is not necessary.
 You can pass `identity` inside model object. Otherwise, identity will be the **first** key of the passed model object. 
+
+#### connect() [generator function]
+Connects ORM. All models should be loaded **before** the connection to DB.
+#### disconnect() [generator function]
+Disconnects ORM.
+
+#### isConnected()
+Returns `boolean` to detect if connection is set.
