@@ -1,6 +1,6 @@
 {
   "name": "teo-db-adapter-waterline",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Teo.JS Waterline ORM Adapter",
   "main": "index.js",
   "scripts": {

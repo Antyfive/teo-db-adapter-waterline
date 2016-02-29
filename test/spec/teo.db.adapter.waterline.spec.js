@@ -94,7 +94,7 @@ describe("Testing teo.db.adapter.waterline", () => {
 
             adapter.prepareWaterlineAdapters();
 
-            assert.equal(adapter.config.waterlineAdapters.default.identity, "myIdentity", "Should apply identity");
+            assert.equal(adapter.config.waterlineAdapters.default.identity, "myIdentity", "Should have passed identity");
             assert.equal(adapter.config.waterlineAdapters.disk.identity, 1, "Should set index if no identity property in adapter");
             assert.equal(adapter.config.waterlineAdapters.mysql.identity, 2, "Should set index if no identity property in adapter");
 
